@@ -26,3 +26,27 @@ body {
 	padding-left: 1.5rem;
 	padding-right: 1.5rem;
 }
+nav a {
+	text-decoration: none;
+}
+nav ol {
+	list-style: none;
+	padding-left: none;
+}
+h1 {
+	text-align: center;
+}
+h2{
+	padding-left: none;
+}
+
+@media only screen and (min-width: 38em) {
+	h1 {
+		text-align: left;
+	}
+}
+@media only screen and (min-width: 25em) {
+	nav li{
+		display: inline-block;
+	}
+}
