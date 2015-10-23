@@ -18,6 +18,10 @@ html{
 body {
 	margin: 0;
 }
+main {
+	font-family: sans-serif;
+
+}
 .img-flex {
 	width: 100%;
 	display: block;
@@ -25,6 +29,10 @@ body {
 .gutter {
 	padding-left: 1.5rem;
 	padding-right: 1.5rem;
+}
+header {
+	background-color: gold;
+
 }
 nav a {
 	text-decoration: none;
@@ -39,7 +47,6 @@ h1 {
 h2{
 	padding-left: none;
 }
-
 @media only screen and (min-width: 38em) {
 	h1 {
 		text-align: left;
