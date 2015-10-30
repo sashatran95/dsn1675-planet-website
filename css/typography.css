@@ -10,6 +10,7 @@ html{
 	-ms-text-size-adjust: 100%;	
 	-webkit-text-size-adjust: 100%;	
 	text-size-adjust: 100%;
+	font: normal 100%/1.5 sans-serif;
 
 }		
 *, *::before, *::after{
@@ -20,40 +21,4 @@ body {
 }
 main {
 	font-family: sans-serif;
-
-}
-.img-flex {
-	width: 100%;
-	display: block;
-}
-.gutter {
-	padding-left: 1.5rem;
-	padding-right: 1.5rem;
-}
-header {
-	background-color: gold;
-
-}
-nav a {
-	text-decoration: none;
-}
-nav ol {
-	list-style: none;
-	padding-left: none;
-}
-h1 {
-	text-align: center;
-}
-h2{
-	padding-left: none;
-}
-@media only screen and (min-width: 38em) {
-	h1 {
-		text-align: left;
-	}
-}
-@media only screen and (min-width: 25em) {
-	nav li{
-		display: inline-block;
-	}
 }
