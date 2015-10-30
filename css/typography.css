@@ -12,6 +12,9 @@ html{
 	text-size-adjust: 100%;
 	font: normal 100%/1.5 sans-serif;
 
+}
+h1, h2, h3, p, ol, ul, dl, {
+	margin: 0 0 1.5rem 0;
 }		
 *, *::before, *::after{
 	box-sizing: inherit;

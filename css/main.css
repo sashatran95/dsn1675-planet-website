@@ -32,7 +32,15 @@ main {
 }
 header {
 	background-color: gold;
-
+}
+.venuslogan{
+	background-color: lightyellow;
+	margin: 0;
+	text-align: center;
+	padding: 1rem;
+}
+.colourthis {
+	background-color: lightyellow;
 }
 nav a {
 	text-decoration: none;
@@ -51,24 +59,33 @@ dd{
 	margin: 0 0 1em 0;
 }
 .characteristics{
-	margin: 1em;
+	margin: 2.5rem;
 }
 .char.colour{
-	background-color: beige;
+	background-color: orange;
 }
 footer{
 	background-color: gold;
 }
 footer p{
-	margin: 0;
-}
-@media only screen and (min-width: 38em) {
-	h1 {
-		text-align: left;
-	}
+	margin-left: 2.5rem;
 }
 @media only screen and (min-width: 25em) {
 	nav li{
 		display: inline-block;
+	}
+	header nav {
+		text-align: center;
+	}
+	.venuslogan{
+		font-size: 1.602rem;
+	}
+}
+@media only screen and (min-width: 38em) {
+	header nav, h1 {
+		text-align: left;
+	}
+	.venuslogan{
+		font-size: 1.802rem;
 	}
 }
