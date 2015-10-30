@@ -42,8 +42,15 @@ header {
 .colourthis {
 	background-color: lightyellow;
 }
-nav a {
+nav a{
 	text-decoration: none;
+	color: black;
+	padding: 0.5rem 1rem 0.5rem 1rem;
+}
+nav a:hover{
+	background-color: lightyellow;
+	color: orange;
+	padding: 0.5rem 1rem 0.5rem 1rem;
 }
 nav ol {
 	list-style: none;
@@ -61,8 +68,8 @@ dd{
 .characteristics{
 	margin: 2.5rem;
 }
-.char.colour{
-	background-color: orange;
+.char-colour{
+	background-color: lightyellow;
 }
 footer{
 	background-color: gold;
