@@ -26,6 +26,11 @@ main {
 	width: 100%;
 	display: block;
 }
+figcaption {
+	margin-left: 2rem;
+	margin-top: 1rem;
+	margin-right: 2rem;
+}
 .gutter {
 	padding-left: 1.5rem;
 	padding-right: 1.5rem;
@@ -42,17 +47,21 @@ header {
 .colourthis {
 	background-color: lightyellow;
 }
+.colourthistoo {
+	background-color: gold;
+	padding-top: 1rem;
+}
 nav a{
 	text-decoration: none;
 	color: black;
 	padding: 0.5rem 1rem 0.5rem 1rem;
+	display: block;
 }
 nav a:hover{
 	background-color: lightyellow;
 	color: orange;
-	padding: 0.5rem 1rem 0.5rem 1rem;
 }
-nav ol {
+nav ul {
 	list-style: none;
 	padding-left: none;
 }
@@ -61,12 +70,13 @@ h1 {
 }
 h2{
 	padding-left: none;
+	margin-top:  1rem;
 }
 dd{
 	margin: 0 0 1em 0;
 }
 .characteristics{
-	margin: 2.5rem;
+	margin: 1rem;
 }
 .char-colour{
 	background-color: lightyellow;
